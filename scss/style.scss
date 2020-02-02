@@ -1,0 +1,179 @@
+$borderParent: 3px solid red;
+$borderchild: 2px solid blue;
+
+body {
+    display: flex;
+    background-color: #D4DDEB;
+    justify-content: space-around;
+
+    .toolbar {
+        // border: $borderParent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #C5D7F0;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-radius: 10px;
+        width: 150px;
+        margin-top: 25px;
+        margin-left: -25px;
+
+        .instruments {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+
+            button {
+                width: 35px;
+                height: 35px;
+                margin-top: 10px;
+            }
+
+            .fill{
+               img {
+                   width: 14px;
+                   height: 14px;
+               }
+            }
+
+            .text {
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            .eraser {
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            .brush {
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            input {
+                margin-top: 10px;
+                width: 35px;
+                height: 28px;
+
+            }
+        }
+
+        .shapes {
+            margin-top: 30px;
+
+            button {
+                margin-top: 10px;
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .palette {
+            margin-top: 30px;
+
+            button {
+                width: 35px;
+                height: 35px;
+                margin-top: 10px;
+            }
+
+            .color__item1 {
+                background-color: #000000;
+            }
+
+            .color__item2 {
+                background-color: #7F7F7F;
+            }
+
+            .color__item3 {
+                background-color: #880015;
+            }
+
+            .color__item4 {
+                background-color: #ED1C24;
+            }
+
+            .color__item5 {
+                background-color: #FF7F27;
+            }
+
+            .color__item6 {
+                background-color: #FFF200;
+            }
+
+            .color__item7 {
+                background-color: #22B14C;
+            }
+
+            .color__item8 {
+                background-color: #00A2E8;
+            }
+
+            .color__item9 {
+                background-color: #3F48CC;
+            }
+
+            .color__item10 {
+                background-color: #A349A4;
+            }
+
+            .color__item11 {
+                background-color: #FFFFFF;
+            }
+
+            .color__item12 {
+                background-color: #C3C3C3;
+            }
+
+            .color__item13 {
+                background-color: #B97A57;
+            }
+
+            .color__item14 {
+                background-color: #FFAEC9;
+            }
+
+            .color__item15 {
+                background-color: #FFC90E;
+            }
+
+            .color__item16 {
+                background-color: #EFE4B0;
+            }
+
+            .color__item17 {
+                background-color: #B5E61D;
+            }
+
+            .color__item18 {
+                background-color: #99D9EA;
+            }
+
+            .color__item19 {
+                background-color: #7092BE;
+            }
+
+            .color__item20 {
+                background-color: #C8BFE7;
+            }
+    
+    }
+
+}
+
+    #canvas {
+        display: block;
+        background-color: #FFFFFF;
+        width: 1100px;
+        // border: $borderParent;
+        margin-top: 25px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+}

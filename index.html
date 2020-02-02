@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>JS Paint</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <div class="toolbar">
+            <div class="instruments">
+                <div class="one">
+                    <button class="pencil">✏</button>
+                    <button class="fill">
+                        <img src="./img/fill.png" alt="" >
+                    </button>
+                    <button class="text">
+                        <img src="./img/text.png" alt="">
+                    </button>
+                </div>
+                <div class="two">
+                    <button class="eraser">
+                        <img src="./img/eraser.png" alt="">
+                    </button>
+                    <button class="brush">
+                        <img src="./img/brush.png" alt="">
+                    </button>
+                    <input type="number">
+                </div>
+                
+            </div>
+
+           
+            <div class="shapes">
+                <button class="squart">Кв</button>
+                <button class="circle">Кр</button>
+                <button class="triangle">Тр</button>
+            </div>
+
+            <div class="palette">
+                <div class="first">
+                    <button class="color__item1" id="#000000"></button> <!--Черный-->
+                    <button class="color__item2" id="#7F7F7F"></button> <!--Серый-->
+                    <button class="color__item3" id="#880015"></button> <!--Бардовый-->
+                </div>
+                <div class="second">
+                    <button class="color__item4" id="#ED1C24"></button> <!--Красный-->
+                    <button class="color__item5" id="#FF7F27"></button> <!--Оранжевый-->
+                    <button class="color__item6" id="#FFF200"></button> <!--Желтый-->
+                </div>
+                <div class="third">
+                    <button class="color__item7" id="#22B14C"></button> <!--Темно-зеленый-->
+                    <button class="color__item8" id="#00A2E8"></button> <!--Темно-голубой-->
+                    <button class="color__item9" id="#3F48CC"></button> <!--Синий-->
+                </div>
+                <div class="fourth">
+                    <button class="color__item10" id="#A349A4"></button> <!--Темно-фиолетовый-->
+                    <button class="color__item11" id="#FFFFFF"></button> <!--Белый-->
+                    <button class="color__item12" id="#C3C3C3"></button> <!--Ярко-серый-->
+                </div>
+                <div class="fifth">
+                    <button class="color__item13" id="#B97A57"></button> <!--Коричневый-->
+                    <button class="color__item14" id="#FFAEC9"></button> <!--Розовый-->
+                    <button class="color__item15" id="#FFC90E"></button> <!--Темно-желтый-->
+                </div>
+                <div class="sixth">
+                    <button class="color__item16" id="#EFE4B0"></button> <!--Светло-желтый-->
+                    <button class="color__item17" id="#B5E61D"></button> <!--Травяной-->
+                    <button class="color__item18" id="#99D9EA"></button> <!--Светло-бирюзовый-->
+                </div>
+                <div class="seventh">
+                    <button class="color__item19" id="#7092BE"></button> <!--Сизый-->
+                    <button class="color__item20" id="#C8BFE7"></button> <!--Сиреневый-->
+                </div>
+                
+            </div>
+        </div>
+
+        <canvas id="canvas"></canvas>
+    </body>
+</html>
