@@ -7,7 +7,6 @@ body {
     justify-content: space-around;
 
     .toolbar {
-        // border: $borderParent;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,7 +15,7 @@ body {
         border-radius: 10px;
         width: 150px;
         margin-top: 25px;
-        margin-left: -25px;
+        margin-left: -15px;
 
         .instruments {
             display: flex;
@@ -27,6 +26,12 @@ body {
                 width: 35px;
                 height: 35px;
                 margin-top: 10px;
+                outline: none;
+
+                // &:focus {
+                //     background-color: #FFC45D;
+                //     border: 1px solid #FFC45D;
+                // }
             }
 
             .fill{
@@ -63,15 +68,41 @@ body {
                 height: 28px;
 
             }
+
+
         }
 
+        .current {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            margin-top: 20px;
+
+            .current__color {
+                width: 35px;
+                height: 35px;
+                background-color: #000000;
+                border: 2px solid #FFFFFF;
+                box-sizing: border-box;
+            }
+        }
+
+
         .shapes {
-            margin-top: 30px;
+            margin-top: 10px;
 
             button {
                 margin-top: 10px;
                 width: 35px;
                 height: 35px;
+
+                // &:focus {
+                //     background-color: #FFC45D;
+                //     border: 1px solid #FFC45D;
+                // }
 
                 img {
                     width: 14px;
@@ -83,7 +114,7 @@ body {
         }
 
         .palette {
-            margin-top: 30px;
+            margin-bottom: 20px;
 
             button {
                 width: 35px;
