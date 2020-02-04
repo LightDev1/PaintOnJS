@@ -72,7 +72,14 @@ body {
                 margin-top: 10px;
                 width: 35px;
                 height: 35px;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
             }
+
+            
         }
 
         .palette {
@@ -171,7 +178,7 @@ body {
     #canvas {
         display: block;
         background-color: #FFFFFF;
-        width: 1100px;
+        
         // border: $borderParent;
         margin-top: 25px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);

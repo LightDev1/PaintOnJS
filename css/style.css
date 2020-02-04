@@ -53,6 +53,10 @@ body .toolbar .shapes button {
   width: 35px;
   height: 35px;
 }
+body .toolbar .shapes button img {
+  width: 14px;
+  height: 14px;
+}
 body .toolbar .palette {
   margin-top: 30px;
 }
@@ -124,7 +128,6 @@ body .toolbar .palette .color__item20 {
 body #canvas {
   display: block;
   background-color: #FFFFFF;
-  width: 1100px;
   margin-top: 25px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
