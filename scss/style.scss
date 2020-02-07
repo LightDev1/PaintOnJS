@@ -7,6 +7,7 @@ body {
     justify-content: space-around;
 
     .toolbar {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,6 +17,32 @@ body {
         width: 150px;
         margin-top: 25px;
         margin-left: -15px;
+
+        .text__input {
+            display: none;
+            position: absolute;
+            top: 65px;
+            left: 32px;
+            width: 100%;
+            height: 30px;
+            box-shadow: 0 -10px 20px rgba(125,173,240,0.8);
+            border: none;
+            border-radius: 10px;
+            padding-left: 5px;
+        }
+
+        .accept {
+            display: none;
+            position: absolute;
+            top: 73px;
+            left: 165px;
+            width: 15px;
+            height: 15px;
+            color: #1BA160;
+            text-decoration: none;
+            outline: none;
+            cursor: pointer;
+        }
 
         .instruments {
             display: flex;
@@ -27,11 +54,6 @@ body {
                 height: 35px;
                 margin-top: 10px;
                 outline: none;
-
-                // &:focus {
-                //     background-color: #FFC45D;
-                //     border: 1px solid #FFC45D;
-                // }
             }
 
             .fill{
@@ -92,17 +114,34 @@ body {
 
 
         .shapes {
+            position: relative;
             margin-top: 10px;
+
+            .settings {
+                display: none;
+                position: absolute;
+                left: -25px;
+                top: 50px;
+                width: 80%;
+                box-shadow: 0 -10px 20px rgba(125,173,240,0.8);
+                border: none;
+                border-radius: 10px;
+
+                .height {
+                    width: 100%;
+                    padding-left: 5px;
+                }
+                
+                .width {
+                    width: 100%;
+                    padding-left: 5px;
+                }
+            }
 
             button {
                 margin-top: 10px;
                 width: 35px;
                 height: 35px;
-
-                // &:focus {
-                //     background-color: #FFC45D;
-                //     border: 1px solid #FFC45D;
-                // }
 
                 img {
                     width: 14px;
